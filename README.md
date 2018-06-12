@@ -38,13 +38,13 @@
 * alpine 最新版为基础包，目前是3.4
 * nginx 1.10.1
 * mariaDB 10.1.17 兼容mysql 5.6 
-* php 5.6.26 & php7.0.11，目前默认为php7
+* 目前默认为php1
 * redis 3.2.0
 
 # 开始使用
 
 * `git clone https://github.com/gnulife/dphp.git`
-* `cd dphp && docker-compose build && docker-compose up -d`
+* `cd laravel-docker && docker-compose build && docker-compose up -d`
 * open http://localhost/
 * [可选] 配置别名：source alias.sh
 
